@@ -1,0 +1,36 @@
+
+
+button{
+    background-color: white;
+    color: blue;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 10px; /*Para redondear las esquinas*/
+    cursor: pointer;
+    font-weight: bold; 
+    box-sizing: content-box;
+    width: 2rem;
+}
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.35);
+}
+button:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 5px rgba(49, 219, 15, 0.25);
+}
+
+.btn-number{
+    background-color: #2B313F;
+    color: white;
+    
+}
+.btn-operandos{
+    background-color: #D77323;
+    color: white; 
+}
+
+.btn-otros{
+    background-color: #505B6D;
+    color: white;
+}
